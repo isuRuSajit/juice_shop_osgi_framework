@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: juice_ServiceSubscriber
+Bundle-SymbolicName: juice_ServiceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: juice_servicesubscriber.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Import-Package: juice_servicepublisher,
+ org.osgi.framework;version="1.3.0"
